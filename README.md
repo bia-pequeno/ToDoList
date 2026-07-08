@@ -1,16 +1,40 @@
-# React + Vite
+# 📝 ToDoList
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Um aplicativo simples de lista de tarefas desenvolvido em **React** com estilização em **CSS**.  
+Permite adicionar, marcar como concluído e excluir tarefas de forma prática.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
+- [Adicionar tarefas](ca://s?q=Adicionar_tarefas_no_ToDoList)
+- [Marcar tarefas como concluídas](ca://s?q=Marcar_tarefas_como_concluidas_no_ToDoList)
+- [Excluir tarefas individualmente](ca://s?q=Excluir_tarefas_individualmente_no_ToDoList)
+- [Excluir todas as tarefas](ca://s?q=Excluir_todas_as_tarefas_no_ToDoList)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📂 Estrutura de Arquivos
+- **index.css** → estilos globais e variáveis de tema (light/dark).
+- **App.css** → estilos da aplicação principal e componentes.
+- **ToDo.css** → estilos específicos da lista de tarefas.
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
+- [React](ca://s?q=React_framework)
+- [CSS3](ca://s?q=CSS3)
+- [JavaScript](ca://s?q=JavaScript)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Instalação
+Clone o repositório e instale as dependências:
+```bash
+git clone https://github.com/bia-pequeno/ToDoList.git
+cd ToDoList
+npm install
+```
 
-## Expanding the Oxlint configuration
+## ▶️ Executando o Projeto
+```bash
+npm run dev
+```
+O projeto estará disponível em http://localhost:5173.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🎨 Capturas de Tela
+
+<img src="/public/screenshot.png" alt="Exemplo da aplicação" width="600"/>
+
+
